@@ -20,11 +20,15 @@
   "license": "ISC",
   "description": "The Backend Express Server for the PokeAPI",
   "dependencies": {
-    "@prisma/client": "^6.6.0",
+   "@prisma/client": "^6.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "express-jwt": "^8.5.1",
-    "jwks-rsa": "^3.2.0"
+    "express-jwt": "^8.5.1",    
+    "jwks-rsa": "^3.2.0",
+    "prisma": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^4.0.2"
   }
 }
